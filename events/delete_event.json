@@ -1,0 +1,50 @@
+{
+    "version": "2.0",
+    "routeKey": "GET /reject-iam-role",
+    "rawPath": "/prod/reject-iam-role",
+    "rawQueryString": "request_id=246664b3-6f59-4204-80c4-acbf84c3a4b8&action=delete",
+    "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7",
+        "content-length": "0",
+        "host": "rk1obuoifa.execute-api.us-west-1.amazonaws.com",
+        "priority": "u=0, i",
+        "sec-ch-ua": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+        "x-amzn-trace-id": "Root=1-67d3ccb7-5f0ba71c5e21dd7b17205219",
+        "x-forwarded-for": "122.99.0.7",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https"
+    },
+    "queryStringParameters": {
+        "action": "delete",
+        "request_id": "246664b3-6f59-4204-80c4-acbf84c3a4b8"
+    },
+    "requestContext": {
+        "accountId": "027060312592",
+        "apiId": "rk1obuoifa",
+        "domainName": "rk1obuoifa.execute-api.us-west-1.amazonaws.com",
+        "domainPrefix": "rk1obuoifa",
+        "http": {
+            "method": "GET",
+            "path": "/prod/reject-iam-role",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "122.99.0.7",
+            "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+        },
+        "requestId": "HZzsujK0SK4EMpw=",
+        "routeKey": "GET /reject-iam-role",
+        "stage": "prod",
+        "time": "14/Mar/2025:06:29:11 +0000",
+        "timeEpoch": 1741933751407
+    },
+    "isBase64Encoded": false
+}

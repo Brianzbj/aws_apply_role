@@ -1,0 +1,19 @@
+# Test files
+logs
+config/**
+.vscode
+*.log
+*.log.*
+gsheet_client_secret.json
+gsheet_token.json
+test-result/**
+
+# Python environment files
+__pycache__
+.mypy_cache/
+*.egg-info
+dist/*
+build
+**venv/*
+.venv/
+**/.venv/

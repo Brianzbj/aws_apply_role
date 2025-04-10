@@ -1,0 +1,37 @@
+{
+    "version": "2.0",
+    "routeKey": "POST /request-iam-role",
+    "rawPath": "/prod/request-iam-role",
+    "rawQueryString": "",
+    "headers": {
+        "accept": "*/*",
+        "content-length": "120",
+        "content-type": "application/json",
+        "host": "rk1obuoifa.execute-api.us-west-1.amazonaws.com",
+        "user-agent": "curl/8.7.1",
+        "x-amzn-trace-id": "Root=1-67d3ccf3-61ab429c3ced9025483082b7",
+        "x-forwarded-for": "122.99.0.7",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https"
+    },
+    "requestContext": {
+        "accountId": "027060312592",
+        "apiId": "rk1obuoifa",
+        "domainName": "rk1obuoifa.execute-api.us-west-1.amazonaws.com",
+        "domainPrefix": "rk1obuoifa",
+        "http": {
+            "method": "POST",
+            "path": "/prod/request-iam-role",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "122.99.0.7",
+            "userAgent": "curl/8.7.1"
+        },
+        "requestId": "HZz2CiwzSK4EJkA=",
+        "routeKey": "POST /request-iam-role",
+        "stage": "prod",
+        "time": "14/Mar/2025:06:30:11 +0000",
+        "timeEpoch": 1741933811083
+    },
+    "body": "{\"role_name\": \"brian-TestRole-3\", \"policy_arn\": \"arn:aws:iam::aws:policy/AmazonRDSReadOnlyAccess\", \"requester\": \"Brian\"}",
+    "isBase64Encoded": false
+}
